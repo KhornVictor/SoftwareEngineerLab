@@ -1,0 +1,51 @@
+# ------------------------------
+# Dedicated large-file directories
+# ------------------------------
+datasets/
+models/
+weights/
+checkpoints/
+media/
+dumps/
+
+# ------------------------------
+# Large media & video files
+# ------------------------------
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+
+# ------------------------------
+# Raw archives & disk images
+# ------------------------------
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+*.iso
+
+# ------------------------------
+# Machine learning models & binaries
+# ------------------------------
+*.bin
+*.pt
+*.pth
+*.onnx
+*.h5
+*.hdf5
+*.safetensors
+*.gguf
+*.pkl
+
+# ------------------------------
+# Database dumps & large exports
+# ------------------------------
+*.sql
+*.dump
+*.csv
+*.parquet
+*.feather
