@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="edu.itc.se.lab01.challenge.WordCountTest" time="3.373" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Desktop\Student Online (SO)\Techno\I4-GIC-A\I4-GIC-S1\Software engineering\C1-MultiThread\lab01-multithreading\target\test-classes;C:\Desktop\Student Online (SO)\Techno\I4-GIC-A\I4-GIC-S1\Software engineering\C1-MultiThread\lab01-multithreading\target\classes;C:\Users\Khorn Victor\.m2\repository\org\junit\jupiter\junit-jupiter\6.1.3\junit-jupiter-6.1.3.jar;C:\Users\Khorn Victor\.m2\repository\org\junit\jupiter\junit-jupiter-api\6.1.3\junit-jupiter-api-6.1.3.jar;C:\Users\Khorn Victor\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Khorn Victor\.m2\repository\org\junit\platform\junit-platform-commons\6.1.3\junit-platform-commons-6.1.3.jar;C:\Users\Khorn Victor\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Khorn Victor\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Khorn Victor\.m2\repository\org\junit\jupiter\junit-jupiter-params\6.1.3\junit-jupiter-params-6.1.3.jar;C:\Users\Khorn Victor\.m2\repository\org\junit\jupiter\junit-jupiter-engine\6.1.3\junit-jupiter-engine-6.1.3.jar;C:\Users\Khorn Victor\.m2\repository\org\junit\platform\junit-platform-engine\6.1.3\junit-platform-engine-6.1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
+    <property name="sun.java.command" value="C:\Users\Khorn Victor\AppData\Local\Temp\surefire5670528328843316952\surefirebooter-20261019131818475_3.jar C:\Users\Khorn Victor\AppData\Local\Temp\surefire5670528328843316952 2026-10-19T13-18-18_365-jvmRun1 surefire-20261019131818475_1tmp surefire_0-20261019131818475_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Desktop\Student Online (SO)\Techno\I4-GIC-A\I4-GIC-S1\Software engineering\C1-MultiThread\lab01-multithreading\target\test-classes;C:\Desktop\Student Online (SO)\Techno\I4-GIC-A\I4-GIC-S1\Software engineering\C1-MultiThread\lab01-multithreading\target\classes;C:\Users\Khorn Victor\.m2\repository\org\junit\jupiter\junit-jupiter\6.1.3\junit-jupiter-6.1.3.jar;C:\Users\Khorn Victor\.m2\repository\org\junit\jupiter\junit-jupiter-api\6.1.3\junit-jupiter-api-6.1.3.jar;C:\Users\Khorn Victor\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Khorn Victor\.m2\repository\org\junit\platform\junit-platform-commons\6.1.3\junit-platform-commons-6.1.3.jar;C:\Users\Khorn Victor\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Khorn Victor\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Khorn Victor\.m2\repository\org\junit\jupiter\junit-jupiter-params\6.1.3\junit-jupiter-params-6.1.3.jar;C:\Users\Khorn Victor\.m2\repository\org\junit\jupiter\junit-jupiter-engine\6.1.3\junit-jupiter-engine-6.1.3.jar;C:\Users\Khorn Victor\.m2\repository\org\junit\platform\junit-platform-engine\6.1.3\junit-platform-engine-6.1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Khorn Victor"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-09-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-25"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Desktop\Student Online (SO)\Techno\I4-GIC-A\I4-GIC-S1\Software engineering\C1-MultiThread\lab01-multithreading"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Khorn Victor\AppData\Local\Temp\surefire5670528328843316952\surefirebooter-20261019131818475_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25+37-LTS-3491"/>
+    <property name="user.name" value="Khorn Victor"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Khorn Victor\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\KHORNV~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="25"/>
+    <property name="user.dir" value="C:\Desktop\Student Online (SO)\Techno\I4-GIC-A\I4-GIC-S1\Software engineering\C1-MultiThread\lab01-multithreading"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/Khorn Victor/.gemini/antigravity-cli/bin;C:\Users\Khorn Victor\AppData\Local\Microsoft\WindowsApps\Microsoft.PowerShell_8wekyb3d8bbwe;c:\Users\Khorn Victor\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\Khorn Victor\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Users\Khorn Victor\AppData\Local\Microsoft\WindowsApps\Microsoft.PowerShell_8wekyb3d8bbwe;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\starship\bin\;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\MATLAB\R2024b\runtime\win64;C:\Program Files\MATLAB\R2024b\bin;C:\Program Files\YASB\;C:\Program Files\komorebi\bin\;C:\Program Files\whkd\bin\;C:\composer;C:\Program Files\Go\bin;C:\Program Files (x86)\ZeroTier\One\;C:\Program Files\Neovim\bin;C:\Program Files (x86)\cloudflared\;C:\Users\Khorn Victor\scoop\shims;C:\Users\Khorn Victor\AppData\Local\agy\bin;C:\Users\Khorn Victor\.cargo\bin;C:\Users\Khorn Victor\.local\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\Khorn Victor\AppData\Local\Programs\Python\Python311\;C:\Users\Khorn Victor\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Khorn Victor\AppData\Local\Programs\Python\Python312\;C:\Users\Khorn Victor\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\Khorn Victor\AppData\Local\Programs\Python\Python313\;C:\Users\Khorn Victor\AppData\Local\Microsoft\WindowsApps;C:\msys64\ucrt64\bin;C:\Program Files\nodejs;C:\Users\Khorn Victor\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\Khorn Victor\AppData\Roaming\npm;C:\flutter\bin;C:\Users\Khorn Victor\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk-25\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2025.2.3\bin;C:\Program Files\MongoDB\Server\8.2\bin;C:\Users\Khorn Victor\AppData\Local\Programs\mongosh\;C:\xampp\php;C:\Users\Khorn Victor\AppData\Local\Microsoft\WinGet\Links;C:\Users\Khorn Victor\AppData\Local\PowerToys\DSCModules\;D:\javafx-sdk-25\bin;C:\maven\apache-maven-3.9.11\bin;C:\Users\Khorn Victor\AppData\Local\Microsoft\WinGet\Packages\karlstav.cava_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\Khorn Victor\AppData\Roaming\Composer\vendor\bin;C:\Program Files (x86)\Nmap;C:\Users\Khorn Victor\.dotnet\tools;C:\Program Files\Vim\vim92;C:\sqlite3;C:\Users\Khorn Victor\go\bin;C:\Users\Khorn Victor\AppData\Local\Programs\Obsidian;C:\Users\Khorn Victor\.config;C:\Tool\Open\target\release;;C:\Tool\Open;C:\Tool\FolderCreator\target\release;c:\Users\Khorn Victor\.vscode\extensions\vscjava.vscode-java-debug-0.59.0\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25+37-LTS-3491"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="testTimeoutStopsWithinThreeSecondsOn5000Files(Path)" classname="edu.itc.se.lab01.challenge.WordCountTest" time="3.256">
+    <system-out><![CDATA[[0.5s] files 1926/5000  words 1,155,600  2,301,992 w/s  top: the(193,000) over(96,500) quick(96,500)
+[1.0s] deadline reached - stopping
+[1.0s] files 4246/5000  words 2,547,600  2,539,980 w/s  top: the(424,700) over(212,350) quick(212,350)
+[PARTIAL] files=4253 words=2,549,400 elapsed=1.00s mode=platform(4)
+ rank  word        count     share
+    1  the           424,900    16.67 %
+    2  lazy          212,450     8.33 %
+    3  over          212,450     8.33 %
+    4  quick         212,450     8.33 %
+    5  repeatedly    212,450     8.33 %
+result.csv written
+]]></system-out>
+  </testcase>
+  <testcase name="testParallelAndSingleThreadedProduceIdenticalResults(Path)" classname="edu.itc.se.lab01.challenge.WordCountTest" time="0.051">
+    <system-out><![CDATA[DONE  files=20 words=20,000 elapsed=0.01s mode=platform(4)
+ rank  word        count     share
+    1  the             2,977    14.89 %
+    2  and             1,512     7.56 %
+    3  of              1,079     5.40 %
+    4  to                839     4.20 %
+    5  a                 690     3.45 %
+    6  in                555     2.78 %
+    7  that              486     2.43 %
+    8  is                419     2.10 %
+    9  was               367     1.84 %
+   10  for               333     1.67 %
+result.csv written
+]]></system-out>
+  </testcase>
+  <testcase name="testVirtualThreadsProduceIdenticalResults(Path)" classname="edu.itc.se.lab01.challenge.WordCountTest" time="0.049">
+    <system-out><![CDATA[DONE  files=20 words=20,000 elapsed=0.01s mode=virtual(8)
+ rank  word        count     share
+    1  the             2,973    14.87 %
+    2  and             1,538     7.69 %
+    3  of              1,061     5.31 %
+    4  to                795     3.98 %
+    5  a                 648     3.24 %
+    6  in                590     2.95 %
+    7  that              454     2.27 %
+    8  is                435     2.18 %
+    9  was               378     1.89 %
+   10  he                317     1.59 %
+result.csv written
+]]></system-out>
+  </testcase>
+</testsuite>
