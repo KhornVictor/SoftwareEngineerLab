@@ -30,7 +30,7 @@ public class ProductRepository {
     }
 
     public List<Product> findByNameContaining(String pattern) {
-        return jdbc.sql("SELECT id, name, price, stock FROM product WHERE name LIKE :pattern ORDER BY id")
+        return jdbc.sql("SELECT id, name, price, stock FROM product WHERE LOWER(name) LIKE LOWER(:pattern) ORDER BY id")
                    .param("pattern", "%" + pattern + "%")
                    .query(Product.class)
                    .list();
